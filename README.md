@@ -1,7 +1,6 @@
-# Hardware Wrappers
-Hardware wrappers for FRC parts, controllers, &amp; encoders
+# Advanced Subsystems
 
-Designed to provide easy sim real mixing by supporting simulation of your entire robot through a model
+Self checking hardware in subsystems, based on 3015's 2023 code
 
 ## Use
 Hop on over to build.gradle inside of repositories add
@@ -16,27 +15,8 @@ maven {
 ```
 and inside of dependencies add
 ```gradle
-implementation 'com.northeasternrobotics.expansion:wrappers:0.0.1'
+implementation 'com.northeasternrobotics.advancedsubsystems:advancedsubsystems:0.0.1'
 ```
-
-## Supported Hardware
-#### Encoders
-- CANCoder
-- SRXEncoder
-- ThriftyEncoder
-- SimSwerveAzimuthEncoder
-
-#### Gyros
-- ADXRS453
-- NavX
-- SimGyro
-
-#### Motor Controllers
-- SparkMax
-- TalonFX
-- TalonSRX
-- Venom
-- SimSmartMotor
 
 ### Note
 yes I'm borrowing Mechanical Advantage's bot so anyone can use this, you can also put your own username and a token with package read privileges if you would prefer
