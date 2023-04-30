@@ -17,6 +17,7 @@ and inside of dependencies add
 ```gradle
 implementation 'com.northeasternrobotics.advancedsubsystems:advancedsubsystems:0.0.1'
 ```
+If the release isn't available just clone the repository & run ./gradlew publishToMavenLocal
 
 ### Note
 yes I'm borrowing Mechanical Advantage's bot so anyone can use this, you can also put your own username and a token with package read privileges if you would prefer
