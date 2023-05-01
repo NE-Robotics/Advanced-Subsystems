@@ -1,4 +1,4 @@
-# Advanced Subsystems
+# Advanced Subsystems [![Gradle Package](https://github.com/NE-Robotics/Advanced-Subsystems/actions/workflows/gradle-publish.yml/badge.svg)](https://github.com/NE-Robotics/Advanced-Subsystems/actions/workflows/gradle-publish.yml)
 
 Self checking hardware in subsystems, based on 3015's 2023 code
 
